@@ -7,10 +7,11 @@ import net.runelite.client.config.ConfigItem;
 
 import java.awt.*;
 
-@ConfigGroup("prayerid")
+@ConfigGroup(ConfigExampleConfig.GROUP)
 public interface ConfigExampleConfig extends Config
 {
     // Configuration menu items go here
+    String GROUP = "prayerid";
 
     @ConfigItem(
             position = 1,

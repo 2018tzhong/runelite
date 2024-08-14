@@ -19,4 +19,16 @@ public class ConfigExamplePlugin extends Plugin {
 
     @Inject
     private ConfigExampleConfig config;
+
+    @Override
+    protected void startUp()
+    {
+        // startUp
+    }
+
+    @Override
+    protected void shutDown()
+    {
+        // shutDown
+    }
 }
